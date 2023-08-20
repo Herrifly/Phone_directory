@@ -1,3 +1,12 @@
+## Prepare project environment
+~~~bash
+mkdir ~/phone-directory && cd ~/phone-directory
+git clone https://github.com/Herrifly/Phone_directory.git 
+python3 -m venv venv
+source venv/bin/activate && cd ~/phone-directory/Phone_directory
+pip install -r  requirements.txt
+~~~
+
 # Phone_directory
 Функционал программы составляют четыре функции (все они получают на вход имя файла и в зависимости от функции - другие параметры):
 
